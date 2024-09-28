@@ -1,0 +1,96 @@
+body {
+    font-family: Gill Sans, sans-serif;
+    font-size: 14px;
+    line-height: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #735C40;
+    margin: 0;
+    padding: 10px 145px 10px 145px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+nav {
+    width: 450px;
+    height: 60px;
+    color: #260F01;
+}
+
+a {
+    color: #260F01;
+    text-decoration: none;
+}
+
+main {
+    padding: 10px 145px 10px 145px;
+}
+
+blockquote {
+    text-decoration: underline;
+}
+
+.formula {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+cite {
+    text-decoration: line-through;
+    white-space: pre;
+}
+
+h2 {
+    color: #260F01;
+}
+
+.product-card {
+    margin: 10px;
+    width: 200px;
+    height: 320px;
+    box-shadow: 0px 2px 10px 0px #EAEAEA;
+}
+
+.product-card__name {
+    margin: 3px 15px 5px 15px;
+    text-align: left;
+}
+
+h4 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.product-card__image {
+    width: auto;
+    height: 230px;
+    margin: 5px 15px 0px 15px;
+}
+
+.product-card__button {
+    text-align: center;
+    vertical-align: center;
+    margin: 5px 15px 5px 15px;
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: #260F01;
+    color: #F2D6BD;
+}
+
+footer {
+    padding: 30px 145px 30px 145px;
+    background-color: #260F01;
+    color: #F2D6BD;
+    line-height: 20px;
+}
