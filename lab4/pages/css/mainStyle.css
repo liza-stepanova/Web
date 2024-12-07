@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+main {
+    padding: 30px 145px;
+    color: #260F01;
+}
+body {
+    font-family: Gill Sans, sans-serif;
+    font-size: 16px;
+    line-height: 15px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    overflow-x: hidden;
+}
+h2, h1, h4 {
+    color: #260F01;
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+
+.picture {
+    display: block;
+    width: 700px;
+    height: auto;
+    margin: 20px auto;
+}
+
+.description {
+    margin-top: 15px;
+}
+
+.footer {
+    padding: 30px 145px;
+    color: #F2D6BD;
+    background-color: #260F01;
+    line-height: 20px;
+}
