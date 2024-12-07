@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../css/headerStyle.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+<section class="hero">
+    <header class="header">
+        <div class="header__name">
+            <img class="logo" src="../../images/logo.png">
+            <h1>Книга.ру</h1>
+        </div>
+        <nav class="nav">
+            <a href="../../index.html" class="nav-link">Главная</a>
+            <a href="../aboutUs/index.html" class="nav-link">О нас</a>
+            <a href="../delivery/index.html" class="nav-link">Доставка</a>
+            <a href="../basket/index.html" class="nav-link">Корзина</a>
+            <a href="index.html" class="nav-link">Каталог</a>
+        </nav>
+    </header>
+</section>
+
+<main>
+    <div class="container">
+        <div class="controls">
+            <label for="photoCount">Количество фотографий:</label>
+            <input type="number" id="photoCount" min="1" max="5000" value="10">
+            <button id="loadPhotos">Загрузить</button>
+        </div>
+        <div class="preloader" id="preloader"><img src="../../images/1486.gif"/></div>
+        <div class="photos" id="photos"></div>
+    </div>
+</main>
+</body>
+</html>

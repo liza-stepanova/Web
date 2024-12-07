@@ -1,0 +1,69 @@
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input, select {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    background-color: #260F01;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#tableContainer {
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    padding: 0.18rem 0.37rem;
+    color: #DEDEDE;
+    font-size: 1.12rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    border: 2px transparent solid;
+}
+
+div[contenteditable="true"] {
+    border: 1px solid #ccc;
+    padding: 5px;
+    min-height: 20px;
+}
+
+table.russian {
+    background-color: #F8F0EAFF;
+    color: #260F01;
+}
+
+table.english {
+    background-color: #F8F0EAFF;
+    color: #A48A6E;
+}
+
