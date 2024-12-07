@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/headerStyle.css">
+    <link rel="stylesheet" href="../css/mainStyle.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Dynamic Table Generator</title>
+</head>
+<body>
+<header class="header">
+    <div class="header__name">
+        <img class="logo" src="../../images/logo.png">
+        <h1>Книга.ру</h1>
+    </div>
+    <nav class="nav">
+        <a href="../../index.html" class="nav-link">Главная</a>
+        <a href="../aboutUs/index.html" class="nav-link">О нас</a>
+        <a href="../delivery/index.html" class="nav-link">Доставка</a>
+        <a href="../basket/index.html" class="nav-link">Корзина</a>
+    </nav>
+</header>
+<main>
+    <h1>Table Generator</h1>
+    <form id="tableForm">
+        <label for="days">Number of Days:</label>
+        <input type="number" id="days" name="days" min="1" required>
+
+        <label for="maxLessons">Max Lessons:</label>
+        <input type="number" id="maxLessons" name="maxLessons" min="1" required>
+
+        <label for="language">Language:</label>
+        <select id="language" name="language" required>
+            <option value="english">English</option>
+            <option value="russian">Russian</option>
+        </select>
+
+        <button type="submit">Generate Table</button>
+    </form>
+
+    <div id="tableContainer"></div>
+</main>
+<script src="script/script.js"></script>
+</body>
+</html>
